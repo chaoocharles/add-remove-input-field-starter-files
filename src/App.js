@@ -8,11 +8,7 @@ function App() {
         <div className="services">
           <div className="first-division">
             <input name="service" type="text" id="service" required />
-            <button
-              type="button"
-              className="add-btn"
-              onClick={handleServiceAdd}
-            >
+            <button type="button" className="add-btn">
               <span>Add a Service</span>
             </button>
           </div>
